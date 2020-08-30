@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-    <!--<link rel="stylesheet" href="css/styles.css" />-->
+    <!-- Below is the ref link to the styles file that was created but not yet being used -->
+    <!--<link rel="stylesheet" href="css/styles.css" /> -->
 
 
     <title>NuCamp: A Better Way To Camp</title>
@@ -26,6 +27,7 @@
         </div>
     </header>
 
+        <!-- Container with three row classes each having seperate col properties in bootstrap for a mobile first design approach -->
     <div class="container">
         <div class="row">
             <div class="col">
@@ -33,10 +35,12 @@
                <hr />
             </div>
         </div>
-
+        
+        <!-- This row has a col that with keep its size half of the size between its neighboring col otherwise names col-6 -->
         <div class="row row-content">
             <div class="col col-lg-6">
                 <h3>Our Mission</h3>
+                <!-- This d-none class will remove the content when the viewport is less then 576px -->
                 <p class="d-none d-sm-block">We present a curated database of the best campsites in the vast woods and backcountry of the World Wide Web Wilderness. We increase access to adventure for the public while promoting safe and respectful use of resources. The expert wilderness trekkers on our staff personally verify each campsite to make sure that they are up to our standards. We also present a platform for campers to share reviews on campsites they have visited with each other.</p>
             </div>
         </div>
@@ -45,12 +49,16 @@
             <div class="col">
                 <h3>Community Partners</h3>
                 <h4>Bootstrap Outfitters <small>Outdoor Gear Specialists</small></h4>
+                <!-- This d-none class will remove the content when the viewport is less then 576px -->
                 <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with the gear you need at prices you can't beat.</p>
                 <h4>Git Out Expeditions <small>Group Adventure Expeditions</small></h4>
+                <!-- This d-none class will remove the content when the viewport is less then 576px -->
                 <p class="d-none d-sm-block">Join Git Out Expeditions to explore new horizons with a group of other adventurers!</p>
                 <h4>Mongo Fly Shop <small>Your Neighborhood Fly Fishing Shop</small></h4>
+                <!-- This d-none class will remove the content when the viewport is less then 576px -->
                 <p class="d-none d-sm-block">Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by Mongo Fly Shop.</p>
                 <h4>Node Outdoor Apparel <small>Outdoor Clothes & Shoes</small></h4>
+                <!-- This d-none class will remove the content when the viewport is less then 576px -->
                 <p class="d-none d-sm-block">From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered.</p>
             </div>
         </div>
