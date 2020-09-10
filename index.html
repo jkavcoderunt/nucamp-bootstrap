@@ -115,13 +115,14 @@
                 <h3 class="card-header bg-primary text-light">Reserve a Campsite</h3>
                 <div class="card-body">
                     <!--The begining of Reservation form -->
-                    <form id="reserveForm">
+                   <form id="reserveForm">
                         <div class="form-group">
                             <div class="row">
-                                <label class="col-sm-6" for="numCampers">
+                                <label class="col-sm-6 col-form-label" for="numCampers">
                                     Number of Campers
                                 </label>
-                                <select name="numCampers" class=" form-control" id="numCampers">
+                                <div class="col">
+                                <select name="numCampers" class="form-control" id="numCampers">
                                     <option selected>Select..</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
@@ -131,11 +132,13 @@
                                     <option value="6">6</option>
                                 </select>
                             </div>
+                        </div>
 
-                            <div class="row form-group">
-                                <label class="col-sm-6 col-form-label" for="date">Date</label>   
-                                <input class="form-control" type="date" name="date" id="date" placeholder="pick a date">
-
+                            <div class="form-group row">
+                                <label class="col-sm-6 col-form-label" for="date">Date</label> 
+                                <div class="col">
+                                <input class="form-control" type="date" name="date" id="date"></input>
+                            </div>  
     
                             </div>
 
@@ -152,7 +155,7 @@
                 </div>
             </div>
 
-        </div>
+        </div> 
     </div>
 
     <footer>
